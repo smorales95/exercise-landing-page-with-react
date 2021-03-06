@@ -17,7 +17,7 @@ export function Card() {
 	return (
 		<div className="card">
 			<img src={data.image} className="card-img-top" alt="..." />
-			<div className="card-body">
+			<div className="card-body text-center">
 				<h5 className="card-title">{data.cardTitle}</h5>
 				<p className="card-text">{data.cardDescription}</p>
 			</div>
