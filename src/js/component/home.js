@@ -13,7 +13,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 export function Home() {
 	return (
 		<div className="container-fluid">
-			<div className="col-md-12">
+			<div className="anch">
 				<Navbar />
 			</div>
 			<div className="row justify-content-center">
@@ -36,7 +36,7 @@ export function Home() {
 					</div>
 				</div>
 			</div>
-			<div className="col-sm">
+			<div className="col-sm anch">
 				<Footer />
 			</div>
 		</div>

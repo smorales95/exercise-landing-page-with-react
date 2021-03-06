@@ -20,6 +20,8 @@ export function Card() {
 			<div className="card-body">
 				<h5 className="card-title">{data.cardTitle}</h5>
 				<p className="card-text">{data.cardDescription}</p>
+			</div>
+			<div className="card-footer justify-content-center text-center">
 				<a className="btn btn-primary" href={data.button.url}>
 					{data.button.label}
 				</a>

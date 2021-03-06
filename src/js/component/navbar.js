@@ -11,7 +11,7 @@ import "bootstrap";
 
 export function Navbar() {
 	return (
-		<nav className="navbar navbar-expand-md navbar-dark bg-dark">
+		<nav className="navbar navbar-expand-md navbar-dark bg-dark anch">
 			<div className="mx-auto order-2">
 				<a className="navbar-brand" href="#">
 					Start Bootstrap
