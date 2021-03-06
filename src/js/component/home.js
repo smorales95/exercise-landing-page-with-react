@@ -4,7 +4,7 @@ import { Jumbotron } from "./jumbotron";
 import { Card } from "./card";
 import { Footer } from "./footer";
 
-import "/workspace/react-hello/src/styles/index.scss";
+import "/workspace/exercise-landing-page-with-react/src/styles/index.scss";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";

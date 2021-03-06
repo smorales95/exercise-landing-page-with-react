@@ -1,5 +1,4 @@
 import React from "react";
-import "/workspace/react-hello/src/styles/index.scss";
 import "bootstrap";
 
 const data = {

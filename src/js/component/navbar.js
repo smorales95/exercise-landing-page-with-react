@@ -1,6 +1,6 @@
 //import react into the bundle
 import React from "react";
-import "/workspace/react-hello/src/styles/index.scss";
+import "/workspace/exercise-landing-page-with-react/src/styles/index.scss";
 
 //include bootstrap npm library into the bundle
 import "bootstrap";
