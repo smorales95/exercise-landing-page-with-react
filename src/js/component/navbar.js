@@ -1,5 +1,6 @@
 //import react into the bundle
 import React from "react";
+import "/workspace/react-hello/src/styles/index.scss";
 
 //include bootstrap npm library into the bundle
 import "bootstrap";
@@ -10,46 +11,42 @@ import "bootstrap";
 
 export function Navbar() {
 	return (
-		<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-			<div className="container-fluid">
+		<nav className="navbar navbar-expand-md navbar-dark bg-dark">
+			<div className="mx-auto order-2">
 				<a className="navbar-brand" href="#">
-					Navbar
+					Start Bootstrap
 				</a>
 				<button
 					className="navbar-toggler"
 					type="button"
-					data-bs-toggle="collapse"
-					data-bs-target="#navbarNavAltMarkup"
-					aria-controls="navbarNavAltMarkup"
-					aria-expanded="false"
-					aria-label="Toggle navigation">
+					data-toggle="collapse"
+					data-target=".dual-collapse2">
 					<span className="navbar-toggler-icon"></span>
 				</button>
-				<div
-					className="collapse navbar-collapse"
-					id="navbarNavAltMarkup">
-					<div className="navbar-nav">
-						<a
-							className="nav-link active"
-							aria-current="page"
-							href="#">
+			</div>
+			<div className="navbar-collapse collapse w-100 order-3 dual-collapse2">
+				<ul className="navbar-nav ml-auto">
+					<li className="nav-item">
+						<a className="nav-link text-light" href="#">
 							Home
 						</a>
-						<a className="nav-link" href="#">
-							Features
+					</li>
+					<li className="nav-item">
+						<a className="nav-link text-light" href="#">
+							About
 						</a>
-						<a className="nav-link" href="#">
-							Pricing
+					</li>
+					<li className="nav-item">
+						<a className="nav-link text-light" href="#">
+							Service
 						</a>
-						<a
-							className="nav-link disabled"
-							href="#"
-							tabIndex="-1"
-							aria-disabled="true">
-							Disabled
+					</li>
+					<li className="nav-item">
+						<a className="nav-link text-light" href="#">
+							Contact
 						</a>
-					</div>
-				</div>
+					</li>
+				</ul>
 			</div>
 		</nav>
 	);
